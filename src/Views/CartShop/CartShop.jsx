@@ -36,7 +36,7 @@ function CartShop() {
 
     return (
         <div className='CartShop_container'>
-            <h1>Hola CartShop</h1>
+            <h1>CartShop!</h1>
             {cart.map((item, index) =>
                 <div key={index} className='CartShop_Card'>
                     <div className="CartShop_head">

@@ -31,7 +31,7 @@ function App() {
       <Router>
         <div className="App">
           <Navbar/>
-          <h1>Hola Padre</h1>
+          <h1>Welcome user!</h1>
         <Switch>
           <Route path="/" exact>
 							<Home />
