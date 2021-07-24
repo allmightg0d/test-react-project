@@ -1,0 +1,28 @@
+.formContainer{
+    display: flex;
+    justify-content: center;
+}
+.formCard{
+    width: 80%;
+}
+.formItems{
+    display: flex;
+    justify-content: space-evenly;
+}
+.formItemsleft, .fomrItemsrigth {
+    flex: 1;
+}
+.formInputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formInputs input{
+    width: 70%;
+    min-width: 300px;
+    height: 1.7rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: .5rem 0
+}
