@@ -1,4 +1,6 @@
 .product_list_card{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     position: relative;
     width: 320px;
     min-height: 500px;

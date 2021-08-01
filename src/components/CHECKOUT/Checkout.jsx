@@ -20,7 +20,7 @@ function Checkout() {
 
   const db = getFirestore();
   // const order = db.collection('purchase_order');
-  console.log(patata);
+  // console.log(patata);
 
   function generateTicket() {
     let titl = cart.map((item) => item.category);
@@ -69,7 +69,7 @@ function Checkout() {
       <button onClick={() => generateTicket()}>Generar ticket Garantía</button>
       <br />
       <button disabled={disabled} onClick={() => ticket(patata)}>Obtener mi ticket de compra</button>
-   
+
 
       <h4>tu ticket es  {tick}</h4>
       <br />

@@ -14,7 +14,6 @@ import { CartProvider } from './Context/Context';
 import Home from './Views/Home/Home';
 import Categories from './Views/Categories/Categories';
 import CartShop from './Views/CartShop/CartShop'
-import AdminProducts from './Views/AdminProducts/AdminProducts';
 // COMPONENTES
 import Navbar from './components/Navbar/Navbar';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
@@ -31,7 +30,6 @@ function App() {
       <Router>
         <div className="App">
           <Navbar/>
-          <h1>Welcome user!</h1>
         <Switch>
           <Route path="/" exact>
 							<Home />

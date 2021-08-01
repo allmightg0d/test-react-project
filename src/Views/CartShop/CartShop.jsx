@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import './CartShop.css'
 import { Link } from 'react-router-dom'
-import Swal from "sweetalert2";
 
 import { CartContext } from '../../Context/Context'
 function CartShop() {

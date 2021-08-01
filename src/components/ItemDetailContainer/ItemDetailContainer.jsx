@@ -22,7 +22,6 @@ export default function ItemDetailContainer() {
     const [item, setItem] = useState([])
     const [details, setDetails] = useState('')
     const {id} = useParams()
-    console.log(typeof id)
 
     useEffect(() => {
         const db =  getFirestore();
@@ -31,8 +30,7 @@ export default function ItemDetailContainer() {
         itemCollection.get().then((querySnapshot)=> {
             // creamos una const asignandole una comparacion que deseemos hacer
             const filter = querySnapshot.docs.find(doc => doc.data().id === parseInt(id));
-            // console.log(typeof querySnapshot.docs[3].data().id)
-            console.log(typeof filter)
+       
             if(querySnapshot.size === 0 ){
                 console.log('sin items');
             }
@@ -48,7 +46,6 @@ export default function ItemDetailContainer() {
         })
         
 
-                // setData(database)
 
 		}, [id]);
 
